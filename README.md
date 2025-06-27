@@ -1,4 +1,4 @@
-# 🧠 Task 4: Classification with Logistic Regression
+ Classification with Logistic Regression
 
 ## 📌 Objective
 Build a **binary classifier** using **Logistic Regression** to predict whether a tumor is malignant or benign using the **Breast Cancer Wisconsin Dataset**.
@@ -57,21 +57,4 @@ Used `load_breast_cancer()` from scikit-learn to fetch and convert the dataset i
 
 ---
 
-## 📘 Interview Questions - Quick Recap
-
-1. **Logistic vs Linear Regression**: Logistic is for classification; linear is for regression.
-2. **Sigmoid Function**: Converts scores into probabilities.
-3. **Precision vs Recall**: Precision = correct positives / predicted positives; Recall = correct positives / actual positives.
-4. **ROC-AUC Curve**: Shows performance at different thresholds.
-5. **Confusion Matrix**: Summary of TP, FP, FN, TN.
-6. **Class Imbalance Issue**: Leads to biased accuracy.
-7. **Choosing Threshold**: Depends on whether precision or recall matters more.
-8. **Multi-class with Logistic Regression?** Yes, using one-vs-rest or softmax.
-
----
-
-## 📎 How to Run
-
-```bash
-pip install -r requirements.txt
-python logistic_regression.py.
+\
