@@ -49,11 +49,6 @@ Used `load_breast_cancer()` from scikit-learn to fetch and convert the dataset i
 | Recall        | High   |
 | ROC AUC Score | ~0.99  |
 
-### ROC Curve
-![ROC Curve](screenshots/roc_curve.png)
-
-### Confusion Matrix
-![Confusion Matrix](screenshots/confusion_matrix.png)
 
 ---
 
